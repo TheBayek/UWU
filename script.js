@@ -13,7 +13,7 @@ button.addEventListener('click', () => {
         // Met à jour l'interface
         isPlaying = false;
         button.classList.remove('playing');
-        textSpan.textContent = "UWU";
+        textSpan.textContent = "SON MYSTÈRE";
     } else {
         // Lance le son
         audio.play().then(() => {
@@ -32,5 +32,5 @@ button.addEventListener('click', () => {
 audio.addEventListener('ended', () => {
     isPlaying = false;
     button.classList.remove('playing');
-    textSpan.textContent = "UWU";
+    textSpan.textContent = "SON MYSTÈRE";
 });
